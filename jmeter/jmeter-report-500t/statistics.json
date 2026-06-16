@@ -1,0 +1,34 @@
+{
+  "GET /coupon-template/{id}" : {
+    "transaction" : "GET /coupon-template/{id}",
+    "sampleCount" : 1000,
+    "errorCount" : 780,
+    "errorPct" : 78.0,
+    "meanResTime" : 263.6199999999999,
+    "medianResTime" : 213.0,
+    "minResTime" : 160.0,
+    "maxResTime" : 479.0,
+    "pct1ResTime" : 458.9,
+    "pct2ResTime" : 473.0,
+    "pct3ResTime" : 475.0,
+    "throughput" : 2074.688796680498,
+    "receivedKBytesPerSec" : 4384.036242219917,
+    "sentKBytesPerSec" : 103.8560036307054
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1000,
+    "errorCount" : 780,
+    "errorPct" : 78.0,
+    "meanResTime" : 263.6199999999999,
+    "medianResTime" : 213.0,
+    "minResTime" : 160.0,
+    "maxResTime" : 479.0,
+    "pct1ResTime" : 458.9,
+    "pct2ResTime" : 473.0,
+    "pct3ResTime" : 475.0,
+    "throughput" : 2074.688796680498,
+    "receivedKBytesPerSec" : 4384.036242219917,
+    "sentKBytesPerSec" : 103.8560036307054
+  }
+}

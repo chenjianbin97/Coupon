@@ -1,0 +1,27 @@
+# Maven
+target/
+
+# IDE
+.idea/
+
+# Logs
+*.log
+
+# Claude Code
+.claude/
+
+# CodeGraph
+.codegraph/
+
+# Superpowers
+.superpowers/
+
+# Environment
+.env
+.env.*
+application-local.yml
+application-local.properties
+
+# OS
+.DS_Store
+Thumbs.db

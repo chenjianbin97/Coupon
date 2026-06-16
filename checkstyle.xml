@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+  "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+  "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+    <module name="TreeWalker">
+        <!-- 命名约定 -->
+        <module name="LocalFinalVariableName"/>
+        <module name="LocalVariableName"/>
+        <module name="MemberName"/>
+        <module name="MethodName"/>
+        <module name="TypeName"/>
+
+        <!-- import 规则 -->
+        <module name="AvoidStarImport"/>
+        <module name="UnusedImports"/>
+        <module name="RedundantImport"/>
+
+        <!-- 代码块 -->
+        <module name="LeftCurly"/>
+        <module name="NeedBraces"/>
+        <module name="RightCurly"/>
+
+        <!-- 空白 -->
+        <module name="WhitespaceAround"/>
+        <module name="MethodParamPad"/>
+        <module name="ParenPad"/>
+        <module name="NoWhitespaceBefore"/>
+
+        <!-- 陷阱 -->
+        <module name="EmptyBlock"/>
+        <module name="EqualsHashCode"/>
+        <module name="StringLiteralEquality"/>
+        <module name="DefaultComesLast"/>
+    </module>
+
+    <!-- 行长度 -->
+    <module name="LineLength">
+        <property name="max" value="150"/>
+        <property name="ignorePattern" value="^import"/>
+    </module>
+
+    <!-- 尾空白 -->
+    <module name="RegexpSingleline">
+        <property name="format" value="\s+$"/>
+        <property name="message" value="行尾有多余空白"/>
+    </module>
+</module>
